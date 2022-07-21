@@ -6,8 +6,6 @@
   height: auto;
   width: 100vw;
   max-width: 1200px;
-  padding: 20px 0px;
-  margin-top: 50px;
 
   .car {
     width: 50vw;
@@ -43,7 +41,6 @@
 
     & ul {
       list-style: none;
-      padding-top: 20px;
 
       & li {
         color: $text-color;
@@ -78,7 +75,6 @@
 @media screen and (max-width: $tablet-size) {
   .content {
     flex-direction: column;
-    margin-top: 20px;
 
     .car {
       width: 100vw;
